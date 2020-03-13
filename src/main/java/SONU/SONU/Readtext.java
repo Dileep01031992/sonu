@@ -15,7 +15,7 @@ public class Readtext {
 			String strCurrentLine;
 			
 			try {
-				objreader = new BufferedReader(new FileReader("H:\\Selenium 2019\\Question Bank.txt"));
+				objreader = new BufferedReader(new FileReader("H:\\Selenium 2019\\Question Bank.pdf"));
 				
 				while((strCurrentLine =objreader.readLine())!=null){
 					System.out.println(strCurrentLine);
