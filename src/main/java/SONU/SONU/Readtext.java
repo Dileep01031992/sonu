@@ -9,13 +9,17 @@ public class Readtext {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		//this is object creation of bufferclass
+
+		
+
+		//it is object creation 
+
 			BufferedReader objreader = null;
-			
+			//confflict check
 			String strCurrentLine;
 			
 			try {
-				objreader = new BufferedReader(new FileReader("H:\\Selenium 2019\\Question Bank.txt"));
+				objreader = new BufferedReader(new FileReader("H:\\Selenium 2019\\Question Bank.pdf"));
 				
 				while((strCurrentLine =objreader.readLine())!=null){
 					System.out.println(strCurrentLine);
