@@ -9,7 +9,7 @@ public class Readtext {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		
+		//this is object creation of bufferclass
 			BufferedReader objreader = null;
 			
 			String strCurrentLine;
