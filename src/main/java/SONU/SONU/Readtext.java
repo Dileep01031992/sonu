@@ -11,7 +11,7 @@ public class Readtext {
 		// TODO Auto-generated method stub
 		//it is object creation 
 			BufferedReader objreader = null;
-			
+			//confflict check
 			String strCurrentLine;
 			
 			try {
